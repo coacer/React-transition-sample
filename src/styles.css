@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translate(-20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translate(0);
+  transition: 0.5s ease;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translate(20px);
+  transition: 0.5s ease;
+}
